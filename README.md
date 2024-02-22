@@ -29,7 +29,8 @@ L'application nécessite les permissions suivantes :
 Pour exécuter ce projet, clonez ce dépôt et ouvrez-le avec Android Studio. Assurez-vous que vous avez configuré Android Studio avec le SDK Android approprié. Compilez et exécutez l'application sur un appareil ou un émulateur supportant au minimum Android SDK version 21 (Lollipop).
 
 ```bash
-git clone https://github.com/votre_nom_utilisateur/ImagePickerApp.git
+git clone https://github.com/persival001/ImagePickerApp.git
+```
 
 ## Configuration
 Assurez-vous d'avoir configuré un FileProvider dans votre fichier AndroidManifest.xml pour partager des fichiers entre votre application et l'appareil photo. Vous devrez également définir les chemins d'accès pour les fichiers partagés dans un fichier XML dans le dossier res/xml.
