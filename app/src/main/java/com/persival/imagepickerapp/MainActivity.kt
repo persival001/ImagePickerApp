@@ -129,7 +129,7 @@ fun PhotoPicker() {
     // ImagePicker setup
     val imageLauncher = rememberLauncherForActivityResult(
         contract = contract,
-        onResult = { it ->
+        onResult = {
             image = it
         })
 
